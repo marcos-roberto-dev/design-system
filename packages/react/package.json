@@ -22,5 +22,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
+  }
 }
