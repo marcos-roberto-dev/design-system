@@ -1,5 +1,5 @@
 {
-  "name": "@marcos-roberto-dev/tokens",
+  "name": "@marcos-roberto-dev/ui",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -10,13 +10,14 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
+  "devDependencies": {
+    "@marcos-roberto-dev/tokens": "*",
+    "@marcos-roberto-dev/ts-config": "*",
+    "@marcos-roberto-dev/eslint-config": "*",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  },
   "keywords": [],
   "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "tsup": "^7.1.0",
-    "typescript": "^5.1.6",
-    "@marcos-roberto-dev/ts-config": "*",
-    "@marcos-roberto-dev/eslint-config": "*"
-  }
+  "license": "MIT"
 }
