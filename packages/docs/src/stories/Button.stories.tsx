@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Button, ButtonProps } from '@marcos-roberto-dev/react'
 
 export default {
-  title: 'Button',
+  title: 'Form/Button',
   component: Button,
   args: {
     children: 'Enviar',
@@ -14,5 +14,6 @@ export const Default: StoryObj<ButtonProps> = {}
 export const Big: StoryObj<ButtonProps> = {
   args: {
     size: 'big',
+    color: '#FFF',
   },
 }
