@@ -12,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@storybook/addon-docs": "^7.4.6",
     "@storybook/addon-essentials": "^7.4.6",
     "@storybook/addon-interactions": "^7.4.6",
     "@storybook/addon-links": "^7.4.6",
@@ -30,6 +31,7 @@
     "@marcos-roberto-dev/react": "*",
     "@marcos-roberto-dev/tokens": "*",
     "@marcos-roberto-dev/ts-config": "*",
+    "@storybook/addon-a11y": "^7.4.6",
     "@storybook/manager-api": "^7.4.6",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

@@ -8,6 +8,11 @@ export default {
     src: 'https://github.com/marcos-roberto-dev.png',
     alt: 'Marcos Roberto',
   },
+  argTypes: {
+    src: {
+      control: 'text',
+    },
+  },
   tags: ['autodocs'],
 } as Meta<AvatarProps>
 
