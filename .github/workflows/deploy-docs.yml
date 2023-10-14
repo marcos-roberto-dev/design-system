@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  env_var: ${{ vars.design_system }}
+  env_var: design_system
 
 jobs:
   build-and-deploy:
