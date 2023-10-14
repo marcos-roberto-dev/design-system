@@ -1,5 +1,5 @@
 {
-  "name": "@marcos-roberto-dev/react",
+  "name": "@codeverseon/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -11,9 +11,9 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
-    "@marcos-roberto-dev/eslint-config": "*",
-    "@marcos-roberto-dev/tokens": "*",
-    "@marcos-roberto-dev/ts-config": "*",
+    "@codeverseon/eslint-config": "*",
+    "@codeverseon/tokens": "*",
+    "@codeverseon/ts-config": "*",
     "@types/react": "^18.2.18",
     "@types/react-dom": "^18.2.7",
     "react": "^18.2.0",

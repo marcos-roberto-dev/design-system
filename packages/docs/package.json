@@ -1,5 +1,5 @@
 {
-  "name": "@marcos-roberto-dev/docs",
+  "name": "@codeverseon/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,10 +29,10 @@
     "vite": "^4.4.8"
   },
   "dependencies": {
-    "@marcos-roberto-dev/eslint-config": "*",
-    "@marcos-roberto-dev/react": "*",
-    "@marcos-roberto-dev/tokens": "*",
-    "@marcos-roberto-dev/ts-config": "*",
+    "@codeverseon/eslint-config": "*",
+    "@codeverseon/react": "*",
+    "@codeverseon/tokens": "*",
+    "@codeverseon/ts-config": "*",
     "@storybook/addon-a11y": "^7.4.6",
     "@storybook/manager-api": "^7.4.6",
     "phosphor-react": "^1.4.1",

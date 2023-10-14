@@ -1,5 +1,5 @@
 {
-  "name": "@marcos-roberto-dev/tokens",
+  "name": "@codeverseon/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "tsup": "^7.1.0",
     "typescript": "^5.1.6",
-    "@marcos-roberto-dev/ts-config": "*",
-    "@marcos-roberto-dev/eslint-config": "*"
+    "@codeverseon/ts-config": "*",
+    "@codeverseon/eslint-config": "*"
   }
 }

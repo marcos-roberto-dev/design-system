@@ -7,7 +7,7 @@ import {
   fontSizes,
   fontWeights,
   lineHeights,
-} from '@marcos-roberto-dev/tokens'
+} from '@codeverseon/tokens'
 
 export const {
   styled,
