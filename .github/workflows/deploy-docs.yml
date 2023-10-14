@@ -5,12 +5,13 @@ on:
     branches:
       - master
 
-env:
-  env_var: design_system
+
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: "design-system"
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -24,8 +25,8 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: ${{ vars.TURBO_TOKEN }}
-          TURBO_TEAM:  ${{ vars.TURBO_TEAM }}
+          TURBO_TOKEN: ${{ envs.TURBO_TOKEN }}
+          TURBO_TEAM:  ${{ envs.TURBO_TEAM }}
 
       - name: Deploy storybook
         working-directory: ./packages/docs
