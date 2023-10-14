@@ -8,8 +8,6 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: dev
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -25,8 +23,8 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: $TURBO_TOKEN
-          TURBO_TEAM: $TURBO_TEAM
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+          TURBO_TEAM: ${{ vars.TURBO_TEAM }}
 
       - name: Deploy storybook
         working-directory: ./packages/docs
