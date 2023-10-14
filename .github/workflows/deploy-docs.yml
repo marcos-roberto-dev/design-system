@@ -5,13 +5,11 @@ on:
     branches:
       - master
 
-
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     environment:
-      name: "design-system"
+      name: design-system
     steps:
       - name: Checkout
         uses: actions/checkout@v3
